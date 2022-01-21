@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "724768244514",
+    "project_id": "messageapp-2f70c",
+    "storage_bucket": "messageapp-2f70c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724768244514:android:3afb82727ef3f6769a1b7b",
+        "android_client_info": {
+          "package_name": "hndit.atigampaha.messageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724768244514-60a3rm8m82fa7ue7fcm2ual93vjcuq3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hndit.atigampaha.messageapp",
+            "certificate_hash": "450fe2039d738f3ec8bbb2c0bd23275b49dbddf5"
+          }
+        },
+        {
+          "client_id": "724768244514-5sdn9ss9d9t2e99a474ihse6jk4atr91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCON1XtnqDBIgu5bBJqor0KJRjr3JubA5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724768244514-5sdn9ss9d9t2e99a474ihse6jk4atr91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

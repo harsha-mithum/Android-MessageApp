@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MessageApp</string>
+    <string name="app_logo">App Logo</string>
+    <string name="text_otp_received">Enter The OTP Which You Received</string>
+    <string name="text_otp_code">Enter the OTP here</string>
+    <string name="change_number">Didn\'t Receive ? Change Your Number</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="chats">Chats</string>
+    <string name="status">Status</string>
+    <string name="calls">Calls</string>
+    <string name="main_otp_desc">Message App Will Send OTP To Your Entered Number</string>
+    <string name="text_phone_number">Enter Your Number Here</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="profile">Profile</string>
+    <string name="back_button">back button</string>
+    <string name="want_to_update_your_profile">Want To Update Your Profile ?</string>
+    <string name="enter_your_name_here">Enter Your Name Here</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="save_your_profile">Save Your Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="user_image">user image</string>
+    <string name="name_of_user">Name of User</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="send_message_image">send_message image</string>
+    <string name="enter_your_new_name_here">Enter Your New Name Here</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="enter_your_name">Enter your name</string>
+</resources>

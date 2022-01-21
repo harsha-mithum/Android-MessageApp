@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UpdateProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/h10">
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarUpdateProfile"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="0dp"
+        android:background="#91067E">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/btnBackUpdateProfile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/back_button"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                app:tint="@color/white">
+
+            </ImageButton>
+
+
+            <TextView
+                android:id="@+id/txtUpdateProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/btnBackUpdateProfile"
+                android:text="@string/update_profile"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/getNewUserImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_above="@+id/getNewUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="130dp">
+
+
+        <ImageView
+            android:id="@+id/getNewUserImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/user_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_pro_pic">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/getNewUserName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/enter_your_name"
+        android:importantForAutofill="no"
+        android:fontFamily="@font/bold"
+        android:inputType="textCapWords">
+
+    </EditText>
+
+
+    <android.widget.Button
+        android:id="@+id/btnUpdateProfile"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/getNewUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mybutton"
+        android:text="update"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp">
+
+    </android.widget.Button>
+
+
+    <ProgressBar
+        android:id="@+id/progressBarUpdateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUpdateProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:visibility="invisible">
+
+    </ProgressBar>
+
+
+</RelativeLayout>
